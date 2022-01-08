@@ -1,0 +1,51 @@
+body {
+    font-family: monospace;
+    text-align: center;
+    background-color: #D5F2E3;
+    color: #634B66;
+}
+
+input {
+    font-family: monospace;
+    background-color: #D5F2E3;
+    border: none;
+    /* border-bottom: 2px solid #634B66; */
+    text-align: center;
+    color: purple;
+}
+
+input:hover {
+    font-family: monospace;
+    color: purple;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+  }
+
+a:hover {
+    font-family: monospace;
+    color: purple;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+select {
+    font-family: monospace;
+    background-color: #BBCBCB;
+    border: none;
+    /* border-bottom: 2px solid #634B66; */
+    text-align: center;
+    color: purple;
+}
