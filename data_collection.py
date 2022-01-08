@@ -1,11 +1,9 @@
 from datatypes import Playlist, Track
 import os
-from dotenv import load_dotenv
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from dataclasses import dataclass
 
-load_dotenv('creds.env')
 
 client_credentials_manager = SpotifyClientCredentials(
     client_id=os.environ['SPOTIPY_CLIENT_ID'],
