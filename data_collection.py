@@ -8,8 +8,8 @@ from dataclasses import dataclass
 load_dotenv('creds.env')
 
 client_credentials_manager = SpotifyClientCredentials(
-    client_id=os.getenv('SPOTIPY_CLIENT_ID'),
-    client_secret=os.getenv('SPOTIPY_CLIENT_SECRET'),
+    client_id=os.environ['SPOTIPY_CLIENT_ID'],
+    client_secret=os.environ['SPOTIPY_CLIENT_SECRET'],
 )
 
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
